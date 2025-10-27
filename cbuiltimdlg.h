@@ -2,6 +2,7 @@
 #define CBUILTIMDLG_H
 
 #include <QDialog>
+#include <QtWidgets>
 #include <QPushButton>
 #include <QTextEdit>
 
@@ -22,6 +23,9 @@ private:
     QPushButton *pagePushBtn;
     QPushButton *progressPushBtn;
     QPushButton *printPushBtn;
-
+    QPushButton *testPushBtn;
+private slots:
+    void doPushBth();
+    void dotextcolor();
 };
 #endif // CBUILTIMDLG_H
